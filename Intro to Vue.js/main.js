@@ -1,7 +1,13 @@
 var app = new Vue({
-  el: '#app',
+  el: "#app",
   data: {
-    product: 'Socks',
-    description: 'Most beautiful socks'
-  }
-})
+    product: "Socks",
+    image: "./assets/vmSocks-green.jpg",
+    description: "Image of socks",
+    url: "./assets/vmSocks-green.jpg",
+    toolTip: "Socks",
+    isActive: true,
+    isStyled: true,
+    isDisabled: false,
+  },
+});
